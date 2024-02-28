@@ -1,0 +1,4 @@
+requests==2.25.1
+Flask==2.0.1
+Werkzeug==2.0.1  # Replace with the version compatible with your Flask version
+

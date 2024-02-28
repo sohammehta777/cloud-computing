@@ -1,0 +1,12 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  slack-interactive:
+    lang: python3
+    handler: ./slack-interactive
+    image: sohamm7/slack-interactive:latest
+    environment:
+      content_type: application/json
+
